@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="cliente.js"></script>
+</head>
+<body>
+    <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <label for="score">Score:</label>
+        <input type="number" id="score" name="score">
+        <button onclick="sendScoreToServer(document.getElementById('name').value, document.getElementById('score').value)">Enviar</button>
+    </div>
+    <div>
+        <label for="leaderboard">Leaderboard: </label>
+        <ol>
+            <li id="number1">???</li>
+            <li id="number2">???</li>
+            <li id="number3">???</li>
+            <li id="number4">???</li>
+            <li id="number5">???</li>
+            <li id="number6">???</li>
+            <li id="number7">???</li>
+            <li id="number8">???</li>
+            <li id="number9">???</li>
+            <li id="number10">???</li>
+        </ol>
+    </div>
+
+</body>
+</html>
